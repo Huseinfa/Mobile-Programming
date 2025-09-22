@@ -14,7 +14,7 @@ void main() {
         title: "Husein Fadhlullah",
         home: Scaffold(
           appBar: AppBar(
-            title: Text("Percobaan 1", 
+            title: Text("Husein Fadhlullah", 
                                       style: TextStyle(
                                       fontSize: 24,
                                       fontWeight: FontWeight.bold,
@@ -29,49 +29,26 @@ void main() {
             alignment: Alignment.center,
             child: Column(
               children: [
-                  Text("Cicak-Cicak Di Dinding\nCiptaan : A.T Mahmud", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
+                  Text("\nCicak-Cicak Di Dinding\nCiptaan : A.T Mahmud\n\n", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
 
-                      Column(
-                        children: [
-                          Align(
-                            alignment: Alignment.centerLeft,
-                            child: Text("Cicak-cicak di dinding \nDiam-diam merayap \nDatang seekor nyamuk\nHap...lalu ditangkap\n"),
-                          ),
-                          Align(
-                            alignment: Alignment.centerRight,
-                            child: Text("Cicak-cicak di dinding \nDiam-diam merayap \nDatang seekor nyamuk",),
-                          ),
-                          Align(
-                            alignment: Alignment.centerRight,
-                            child: Text("Hap...lalu ditangkap\n", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
-                          ),
-                          Align(
-                            alignment: Alignment.centerLeft,
-                            child: Text("Cicak-cicak di dinding \nDiam-diam merayap \nDatang seekor nyamuk\nHap...lalu ditangkap\n"),
-                          ),
-                          Align(
-                            alignment: Alignment.centerRight,
-                            child: Text("Cicak-cicak di dinding \nDiam-diam merayap \nDatang seekor nyamuk",),
-                          ),
-                          Align(
-                            alignment: Alignment.centerRight,
-                            child: Text("Hap...lalu ditangkap\n", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
-                          ),
-                          Align(
-                            alignment: Alignment.centerLeft,
-                            child: Text("Cicak-cicak di dinding \nDiam-diam merayap \nDatang seekor nyamuk\nHap...lalu ditangkap\n"),
-                          ),
-                          Align(
-                            alignment: Alignment.centerRight,
-                            child: Text("Cicak-cicak di dinding \nDiam-diam merayap \nDatang seekor nyamuk",),
-                          ),
-                          Align(
-                            alignment: Alignment.centerRight,
-                            child: Text("Hap...lalu ditangkap\n", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
-                          ),
-
-
-                        ],
+                      Padding(
+                        padding: const EdgeInsets.all(20.0),
+                        child: Column(
+                          children: [
+                            Align(
+                              alignment: Alignment.centerLeft,
+                              child: Text("Cicak-cicak di dinding \nDiam-diam merayap \nDatang seekor nyamuk\nHap...lalu ditangkap\n"),
+                            ),
+                            Align(
+                              alignment: Alignment.centerRight,
+                              child: Text("Cicak-cicak di dinding \nDiam-diam merayap \nDatang seekor nyamuk",),
+                            ),
+                            Align(
+                              alignment: Alignment.centerRight,
+                              child: Text("Hap...lalu ditangkap\n", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   ),
