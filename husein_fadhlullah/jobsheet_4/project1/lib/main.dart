@@ -25,7 +25,8 @@ void main() {
             backgroundColor: Colors.orange,
             foregroundColor: Colors.black,
           ),
-          body: Align(
+          body: Container(
+            color: Colors.grey,
             alignment: Alignment.center,
             child: Column(
               children: [
@@ -45,7 +46,7 @@ void main() {
                             ),
                             Align(
                               alignment: Alignment.centerRight,
-                              child: Text("Hap...lalu ditangkap\n", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
+                              child: Text("Hap...lalu ditangkap\n", style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold, color: Colors.orange),),
                             ),
                           ],
                         ),
